@@ -18,7 +18,7 @@ const posts = [
   nome: "MINO MALONE",
     titulo: "PASSOS",
     imagem: "Mino MALONE _-Passos.png",
-    link: "https://wise.com/br/currency-converter/cny-to-mzn-rate?amount=700",
+    link: "https://www.mediafire.com/file/zonktwm3zsvbxuh/Mino_Malone_-_Passos_%25282022%2529.mp3/file",
     
   },
   {
