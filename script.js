@@ -16,7 +16,7 @@ A IMAGEM É RENDERIZADA AUTOMATICAMENTE pelo navegador.
 const posts = [
 
   {
-  nome: "MINO MALONE",
+    nome: "MINO MALONE",
     titulo: "PASSOS",
     imagem: "Mino MALONE _-Passos.png",
     link: "https://www.mediafire.com/file/zonktwm3zsvbxuh/Mino_Malone_-_Passos_%25282022%2529.mp3/file",
@@ -40,8 +40,7 @@ const posts = [
     titulo: "NINGUÉM",
     imagem: "",
     link: "https://www.mediafire.com/file/4fs1vfpgzrr6fv2/MINO_MALONE_-Ninguem.mp3/file",
-    
-  },
+     },
 ];
 
 /*
