@@ -36,9 +36,9 @@ const posts = [
     link: "https://www.mediafire.com/file/m71583mcn867ivy/Mino_Malone-Estrada_.mp3/file",
      },
       {
-  nome: "MINO MALONE",
+    nome: "MINO MALONE",
     titulo: "NINGUÉM",
-    imagem: "Mino MALONE _-Passos.png",
+    imagem: "",
     link: "https://www.mediafire.com/file/4fs1vfpgzrr6fv2/MINO_MALONE_-Ninguem.mp3/file",
     
   },
