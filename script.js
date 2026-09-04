@@ -25,7 +25,7 @@ const posts = [
     nome: "LA BLINGUA feat LATINO BARHOS e MINO MALONE",
     titulo: "LOUVRE",
     imagem: "LA BLINGUA feat LATINO BARHOS e MINO MALONE_- LOUVRE.png",
-    link: "",
+    link: "https://www.mediafire.com/file/18s2zdm3a2rgc9i/LA_BLINGUA_X_MINO_MALONE_X_VIVIU_LOOP_-LOUVRE.mp3/file",
     
   },
   {
