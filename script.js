@@ -15,11 +15,11 @@ A IMAGEM É RENDERIZADA AUTOMATICAMENTE pelo navegador.
 
 const posts = [
   {
-    nome: "MINO MALONE",
-    titulo: "Passos",
-    link:"Vectorify_1788519567658_c4.svg",
-    imagem: "Capa do álbum",
-    data: "Hoje"
+  nome: "MINO MALONE",
+    titulo: "Como se preparar para uma aventura ao ar livre",
+    imagem: "Vectorify_1788519567658_c4.svg",
+    link: "Vectorify_1788519567658_c4.svg",
+    data: "Ontem"
   },
   {
     nome: "Aventuras",
