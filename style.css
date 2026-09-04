@@ -1,44 +1,234 @@
-<div class="menu-somdanet">
-  <a href="index.html">Início</a>
-  <a href="sobre.html">Sobre</a>
-  <a href="contacto.html">Contacto</a>
-  <a href="privacidade.html">Privacidade</a>
-</div>
+* {
+  box-sizing: border-box;
+}
 
-<style>
-.menu-somdanet {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 10px;
-  background: #ffffff;
+body {
+  margin: 0;
+  background: #f5f6f8;
+  color: #17202a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  min-height: 70px;
+  background: #fff;
   border-bottom: 1px solid #e5e7eb;
-  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 12px max(18px, calc((100% - 1100px) / 2));
 }
 
-.menu-somdanet a {
+.logo {
+  font-size: 22px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.search-wrap {
+  position: relative;
+  flex: 1;
+  max-width: 650px;
+  margin: auto;
+}
+
+.search-wrap input {
+  width: 100%;
+  height: 44px;
+  border: 1px solid #d7dce2;
+  border-radius: 10px;
+  padding: 0 42px 0 15px;
+  font-size: 15px;
+  outline: none;
+  background: #fafafa;
+}
+
+.search-wrap input:focus {
+  border-color: #1877f2;
+  background: #fff;
+}
+
+.search-wrap span {
+  position: absolute;
+  right: 14px;
+  top: 7px;
+  font-size: 27px;
+  color: #68717c;
+}
+
+.refresh-btn {
+  border: 1px solid #d7dce2;
+  background: #fff;
+  border-radius: 9px;
+  height: 42px;
+  padding: 0 13px;
+  font-weight: 650;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.refresh-btn:hover {
+  background: #f1f3f5;
+}
+
+.refresh-btn:active {
+  transform: scale(.98);
+}
+
+.container {
+  width: min(760px, calc(100% - 28px));
+  margin: 24px auto 40px;
+}
+
+.ad-slot {
+  min-height: 0;
+  margin: 0 0 16px;
+}
+
+/*
+  O espaço acima fica vazio enquanto você não colocar um anúncio.
+  Quando colar o código real do AdSense no local indicado no HTML,
+  o próprio AdSense será responsável por renderizar o anúncio.
+*/
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.post {
+  background: #fff;
+  border: 1px solid #e2e5e9;
+  border-radius: 12px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  min-height: 180px;
+}
+
+.post-image {
+  width: 100%;
+  height: 100%;
+  min-height: 180px;
+  object-fit: cover;
+  display: block;
+  background: #e9edf1;
+}
+
+.post-content {
+  padding: 18px 20px;
+}
+
+.post-name {
+  font-weight: 750;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.post-date {
+  color: #77808a;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.post-title {
+  display: inline-block;
+  color: #0866d6;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 750;
   text-decoration: none;
-  color: #333;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 8px 14px;
-  border-radius: 20px;
-  transition: 0.2s;
 }
 
-.menu-somdanet a:hover {
-  background: #f0f0f0;
+.post-title:hover {
+  text-decoration: underline;
 }
 
-@media (max-width: 480px) {
-  .menu-somdanet {
-    gap: 3px;
+.no-results {
+  background: #fff;
+  border: 1px solid #e2e5e9;
+  border-radius: 12px;
+  padding: 34px 20px;
+  text-align: center;
+  color: #334155;
+}
+
+.no-results .search-icon {
+  font-size: 36px;
+  color: #64748b;
+  margin-bottom: 5px;
+}
+
+.no-results strong {
+  display: block;
+  font-size: 17px;
+}
+
+.no-results p {
+  margin: 6px 0 0;
+  color: #7a8490;
+}
+
+footer {
+  text-align: center;
+  color: #6b7280;
+  font-size: 13px;
+  padding: 24px 15px 35px;
+}
+
+@media (max-width: 650px) {
+  .topbar {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 11px 14px;
   }
 
-  .menu-somdanet a {
-    font-size: 13px;
-    padding: 7px 10px;
+  .logo {
+    order: 1;
   }
-}
-</style>
+
+  .refresh-btn {
+    order: 2;
+    margin-left: auto;
+    width: 44px;
+    padding: 0;
+    font-size: 22px;
+  }
+
+  .refresh-btn span {
+    display: none;
+  }
+
+  .search-wrap {
+    order: 3;
+    flex-basis: 100%;
+    max-width: none;
+  }
+
+  .container {
+    width: min(100% - 20px, 760px);
+    margin-top: 14px;
+  }
+
+  .post {
+    grid-template-columns: 1fr;
+  }
+
+  .post-image {
+    height: 210px;
+    min-height: 0;
+  }
+
+  .post-content {
+    padding: 15px;
+  }
+
+  .post-title {
+    font-size: 18px;
+  }
+  }
+
