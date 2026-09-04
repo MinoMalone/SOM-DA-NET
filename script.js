@@ -18,11 +18,11 @@ const posts = [
   nome: "MINO MALONE",
     titulo: "PASSOS",
     imagem: "Vectorify_1788519567658_c4.svg",
-    link: "https://chatgpt.com/",
+    link: "https://wise.com/br/currency-converter/cny-to-mzn-rate?amount=700",
     data: "Ontem"
   },
   {
-    nome: "Malone",
+    nome: "JAMAICANO BABACITA",
     titulo: "Como se preparar para uma aventura ao ar livre",
     imagem: "Vectorify_1788519567658_c4.svg",
     link: "Vectorify_1788519567658_c4.svg",
