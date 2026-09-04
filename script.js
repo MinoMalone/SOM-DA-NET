@@ -16,9 +16,9 @@ A IMAGEM É RENDERIZADA AUTOMATICAMENTE pelo navegador.
 const posts = [
   {
   nome: "MINO MALONE",
-    titulo: "Como se preparar para uma aventura ao ar livre",
+    titulo: "PASSOS",
     imagem: "Vectorify_1788519567658_c4.svg",
-    link: "Vectorify_1788519567658_c4.svg",
+    link: "FACEBOOK.COM",
     data: "Ontem"
   },
   {
