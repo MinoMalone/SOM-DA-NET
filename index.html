@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="logo">SOM DA NET</div>
+
+    <div class="search-wrap">
+      <input id="searchInput" type="search" placeholder="Pesquisar publicações..." autocomplete="off">
+      <span>⌕</span>
+    </div>
+
+    <!-- BOTÃO ATUALIZAR: serve somente para atualizar/recarregar a página -->
+    <button id="refreshBtn" class="refresh-btn" title="Atualizar página" aria-label="Atualizar página">
+      ↻ <span>Atualizar</span>
+    </button>
+  </header>
+
+  <main class="container">
+
+    <!-- COLOQUE AQUI O CÓDIGO DO ADSENSE -->
+    <!-- Exemplo: cole aqui o código fornecido pelo Google AdSense. -->
+    <div class="ad-slot" id="ad-top"></div>
+
+    <section id="feed" class="feed"></section>
+
+    <div id="noResults" class="no-results" hidden>
+      <div class="search-icon">⌕</div>
+      <strong>Sem resultado</strong>
+      <p>Nenhuma publicação encontrada para sua pesquisa.</p>
+    </div>
+
+    <!-- COLOQUE AQUI O CÓDIGO DO ADSENSE, SE QUISER OUTRO ANÚNCIO -->
+    <div class="ad-slot" id="ad-bottom"></div>
+
+  </main>
+
+  <footer>© 2026 Meu Blog. Todos os direitos reservados.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
