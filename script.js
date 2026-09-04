@@ -45,6 +45,12 @@ const posts = [
     imagem: "SOMDANET CAPA GERAL.png",
     link: "https://www.mediafire.com/file/09xn531v5gzc7zs/Mino_Malone_-_Invis%25C3%25ADvel.mp3/file",  
   },
+    {
+    nome: "GUIDERASS DA BOSS",
+    titulo: "ESSA MOÇA",
+    imagem: "SOMDANET CAPA GERAL.png",
+    link: "https://www.mediafire.com/file/5hb2v7ftui1u426/Guidrass_da_Boss_-Essa_mo%25C3%25A7a.mp3/file",  
+  },
 ];
 
 /*
