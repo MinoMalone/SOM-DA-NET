@@ -16,13 +16,6 @@ A IMAGEM É RENDERIZADA AUTOMATICAMENTE pelo navegador.
 const posts = [
   {
     nome: "MINO MALONE",
-    titulo: "INVISÍVEL",
-    imagem: "SOMDANET CAPA GERAL.png",
-    link: "https://www.mediafire.com/file/09xn531v5gzc7zs/Mino_Malone_-_Invis%25C3%25ADvel.mp3/file",  
-  },
-
-  {
-    nome: "MINO MALONE",
     titulo: "PASSOS",
     imagem: "Mino MALONE _-Passos.png",
     link: "https://www.mediafire.com/file/zonktwm3zsvbxuh/Mino_Malone_-_Passos_%25282022%2529.mp3/file",  
@@ -46,7 +39,12 @@ const posts = [
     imagem: "MINO MALONE _- NINGUEM.png",
     link: "https://www.mediafire.com/file/4fs1vfpgzrr6fv2/MINO_MALONE_-Ninguem.mp3/file",
   },
-  
+    {
+    nome: "MINO MALONE",
+    titulo: "INVISÍVEL",
+    imagem: "SOMDANET CAPA GERAL.png",
+    link: "https://www.mediafire.com/file/09xn531v5gzc7zs/Mino_Malone_-_Invis%25C3%25ADvel.mp3/file",  
+  },
 ];
 
 /*
