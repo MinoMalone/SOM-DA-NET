@@ -29,11 +29,11 @@ const posts = [
     
   },
   {
-    nome: "Dev News",
-    titulo: "As principais tendências em tecnologia",
-    imagem: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
+    nome: "MINO MALONE",
+    titulo: "ESTRADA",
+    imagem: "https://www.mediafire.com/file/m71583mcn867ivy/Mino_Malone-Estrada_.mp3/file",
     link: "https://example.com",
-    data: "2 dias atrás"
+    
   }
 ];
 
