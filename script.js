@@ -14,6 +14,12 @@ A IMAGEM É RENDERIZADA AUTOMATICAMENTE pelo navegador.
 */
 
 const posts = [
+  {
+    nome: "MINO MALONE",
+    titulo: "INVISÍVEL",
+    imagem: "SOMDANET CAPA GERAL.png",
+    link: "https://www.mediafire.com/file/09xn531v5gzc7zs/Mino_Malone_-_Invis%25C3%25ADvel.mp3/file",  
+  },
 
   {
     nome: "MINO MALONE",
