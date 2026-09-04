@@ -22,7 +22,7 @@ const posts = [
     data: "Ontem"
   },
   {
-    nome: "Aventuras",
+    nome: "Malone",
     titulo: "Como se preparar para uma aventura ao ar livre",
     imagem: "Vectorify_1788519567658_c4.svg",
     link: "Vectorify_1788519567658_c4.svg",
