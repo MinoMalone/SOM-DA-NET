@@ -24,7 +24,7 @@ const posts = [
   {
     nome: "JAMAICANO BABACITA",
     titulo: "Como se preparar para uma aventura ao ar livre",
-    imagem: "Vectorify_1788519567658_c4.svg",
+    imagem: "1788264182228.jpg",
     link: "Vectorify_1788519567658_c4.svg",
     data: "Ontem"
   },
