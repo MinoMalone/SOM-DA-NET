@@ -18,7 +18,7 @@ const posts = [
   nome: "MINO MALONE",
     titulo: "PASSOS",
     imagem: "Vectorify_1788519567658_c4.svg",
-    link: "FACEBOOK.COM",
+    link: "https://chatgpt.com/",
     data: "Ontem"
   },
   {
