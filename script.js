@@ -18,7 +18,7 @@ const posts = [
     nome: "MINO MALONE",
     titulo: "Passos",
     imagem: "Vectorify_1788519567658_c4.svg",
-    link: "https://example.com"
+    link: "https://example.com",
     data: "Hoje"
   },
   {
