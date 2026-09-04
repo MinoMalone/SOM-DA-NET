@@ -24,7 +24,7 @@ const posts = [
     nome: "Aventuras",
     titulo: "Como se preparar para uma aventura ao ar livre",
     imagem: "Vectorify_1788519567658_c4.svg",
-    link: "https://example.com",
+    link: "Vectorify_1788519567658_c4.svg",
     data: "Ontem"
   },
   {
