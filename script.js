@@ -17,7 +17,8 @@ const posts = [
   {
     nome: "MINO MALONE",
     titulo: "Passos",
-    imagem: "",
+    link:"Vectorify_1788519567658_c4.svg",
+    imagem: "Capa do álbum",
     data: "Hoje"
   },
   {
