@@ -15,9 +15,9 @@ A IMAGEM É RENDERIZADA AUTOMATICAMENTE pelo navegador.
 
 const posts = [
   {
-    nome: "Mundo Tech",
-    titulo: "Descubra os 10 destinos mais incríveis do mundo",
-    imagem: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80",
+    nome: "MINO MALONE",
+    titulo: "Passos",
+    imagem: "https://drive.google.com/file/d/18-e6MypnSHk9k_wPGFqoawDEu-IEFBAV/view?usp=drivesdk",
     link: "https://example.com",
     data: "Hoje"
   },
