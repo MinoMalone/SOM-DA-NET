@@ -17,7 +17,7 @@ const posts = [
   {
     nome: "MINO MALONE",
     titulo: "Passos",
-    imagem: "https://drive.google.com/file/d/18-e6MypnSHk9k_wPGFqoawDEu-IEFBAV/view?usp=drivesdk",
+    imagem: "https://github.com/MinoMalone/SOM-DA-NET/blob/3a57da7ffc93c3ad569171c1965b09851cdb9ce3/Vectorify_1788519567658_c4.svg",
     link: "https://example.com",
     data: "Hoje"
   },
