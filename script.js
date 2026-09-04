@@ -33,8 +33,7 @@ const posts = [
     titulo: "ESTRADA",
     imagem: "Mino MALONE_-estrada.webp",
     link: "https://www.mediafire.com/file/m71583mcn867ivy/Mino_Malone-Estrada_.mp3/file",
-    
-  }
+     },
 ];
 
 /*
