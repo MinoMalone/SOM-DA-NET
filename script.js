@@ -17,12 +17,12 @@ const posts = [
   {
   nome: "MINO MALONE",
     titulo: "PASSOS",
-    imagem: "Vectorify_1788519567658_c4.svg",
+    imagem: "Capa de Mino MALONE _-Passos.png",
     link: "https://wise.com/br/currency-converter/cny-to-mzn-rate?amount=700",
     data: "Ontem"
   },
   {
-    nome: "JAMAICANO BABACITA",
+    nome: "LA BLINGUA feat LATINO BARHOS e MINO MALONE",
     titulo: "Como se preparar para uma aventura ao ar livre",
     imagem: "1788264182228.jpg",
     link: "Vectorify_1788519567658_c4.svg",
