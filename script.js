@@ -14,12 +14,33 @@ A IMAGEM É RENDERIZADA AUTOMATICAMENTE pelo navegador.
 */
 
 const posts = [
+  
+    {
+    nome: "VIVIU LOOP",
+    titulo: "VOLTAR",
+    imagem: "SOMDANET CAPA GERAL.png",
+    link: "https://www.mediafire.com/file/fvv5t16gxxmk1s3/V%25C3%258CVIU_LOOP_-__VOLTAR.mp3/file",  
+  },
+  {
+    nome: "EDDY X MINO MALONE X VIVIU LOOP ",
+    titulo: "BRANCO",
+    imagem: "SOMDANET CAPA GERAL.png",
+    link: "https://www.mediafire.com/file/5hb2v7ftui1u426/Guidrass_da_Boss_-Essa_mo%25C3%25A7a.mp3/file",  
+  },
   {
     nome: "MINO MALONE",
     titulo: "PASSOS",
     imagem: "Mino MALONE _-Passos.png",
     link: "https://www.mediafire.com/file/zonktwm3zsvbxuh/Mino_Malone_-_Passos_%25282022%2529.mp3/file",  
   },
+  
+    {
+    nome: "VIVIU LOOP X DEBLO X ESDEF X LIL DRAX",
+    titulo: "MENTE BLINDADA",
+    imagem: "SOMDANET CAPA GERAL.png",
+    link: "https://www.mediafire.com/file/99e5rz3p2u1c8be/VIVIU_LOOP_X_DEBLO_X_ESDEF_X_LIL_DRAX__-_MENTE_BLINDADA_%2528_Prod_MM_%2529_audio_of.mp3/file",  
+  },
+
   {
     nome: "LA BLINGUA feat LATINO BARHOS e MINO MALONE",
     titulo: "LOUVRE",
@@ -39,6 +60,13 @@ const posts = [
     imagem: "MINO MALONE _- NINGUEM.png",
     link: "https://www.mediafire.com/file/4fs1vfpgzrr6fv2/MINO_MALONE_-Ninguem.mp3/file",
   },
+  
+    {
+    nome: "VIVIU LOOP",
+    titulo: "COLO PAI",
+    imagem: "SOMDANET CAPA GERAL.png",
+    link: "https://www.mediafire.com/file/6ci1rqapnoaeven/VIVIU_LOOP__-_Colo_Pai_%2528Prod_B%25C3%25BAssola_%2529_audio_Oficial_084538.mp3/file",  
+  },
     {
     nome: "MINO MALONE",
     titulo: "INVISÍVEL",
@@ -50,6 +78,13 @@ const posts = [
     titulo: "ESSA MOÇA",
     imagem: "SOMDANET CAPA GERAL.png",
     link: "https://www.mediafire.com/file/5hb2v7ftui1u426/Guidrass_da_Boss_-Essa_mo%25C3%25A7a.mp3/file",  
+  },
+  
+    {
+    nome: "VIVIU LOOP",
+    titulo: "FF",
+    imagem: "SOMDANET CAPA GERAL.png",
+    link: "https://www.mediafire.com/file/zxo274i7zpdycax/VIVIU_LOOP-_FF%2528audio_official%2529.mp3/file",  
   },
 ];
 
