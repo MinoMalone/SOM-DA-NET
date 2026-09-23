@@ -25,7 +25,7 @@ const posts = [
     nome: "EDDY X MINO MALONE X VIVIU LOOP ",
     titulo: "BRANCO",
     imagem: "SOMDANET CAPA GERAL.png",
-    link: "https://www.mediafire.com/file/5hb2v7ftui1u426/Guidrass_da_Boss_-Essa_mo%25C3%25A7a.mp3/file",  
+    link: "https://www.mediafire.com/file/snvxjplh7lmlpoy/EDDY_X_MINO_MALONE_X_VIVIU_LOOP__-BRANCO.mp3/file",  
   },
   {
     nome: "MINO MALONE",
