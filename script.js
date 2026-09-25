@@ -86,6 +86,12 @@ const posts = [
     imagem: "SOMDANET CAPA GERAL.png",
     link: "https://www.mediafire.com/file/zxo274i7zpdycax/VIVIU_LOOP-_FF%2528audio_official%2529.mp3/file",  
   },
+{
+    nome: "Novos lançamentos",
+    titulo: "aqui",
+    imagem: "SOMDANET CAPA GERAL.png",
+  },
+  
 ];
 
 /*
